@@ -1,0 +1,9 @@
+project: "arunramachandran15/EKS-brigade"
+repository: "github.com/arunramachandran15/EKS-brigade.git"
+cloneURL: "https://github.com/arunramachandran15/EKS-brigade.git"
+sharedSecret: "MySuperSecret"
+github:
+  token: "b6990f4c63e418b3abc5e7ffcd5f0973b1c6f738"
+secrets:
+  dockerLogin: arun15
+  dockerPass: monmon123
