@@ -38,9 +38,9 @@ events.on("test-done", (e, project) => {
     "dockerd-entrypoint.sh &",
     "sleep 20",
     "cd /src/",
-    "docker build -t tettaji/brigade-test:latest .",
+    "docker build -t arun15/brigade-test:latest .",
     "docker login -u $DOCKER_USER -p $DOCKER_PASS",
-    "docker push tettaji/brigade-test:latest"
+    "docker push arun15/brigade-test:latest"
   ]
 
   dockerBuild.run().then( () => {

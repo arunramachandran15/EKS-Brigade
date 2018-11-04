@@ -1,4 +1,4 @@
-project: "arunramachandran15/EKS-brigade"
+project: "arunramachandran15/EKS-Brigade"
 repository: "github.com/arunramachandran15/EKS-brigade.git"
 cloneURL: "https://github.com/arunramachandran15/EKS-brigade.git"
 sharedSecret: "MySuperSecret"
