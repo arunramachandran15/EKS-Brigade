@@ -2,11 +2,11 @@ const { events, Job } = require("brigadier");
 
 
 
-events.on("exec", (e, project) => {
+events.on("exec1", (e, project) => {
   console.log("Hey hey hey exec hook fired");
 });
 
-events.on("push", (e, project) => {
+events.on("exec", (e, project) => {
   console.log("received push for commit " + e.commit)
 
   var testJob = new Job("test-runner")
